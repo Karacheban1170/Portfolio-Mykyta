@@ -446,7 +446,7 @@ body {
 	align-items: center;
 	padding: 65px 0;
 
-	background: url(../img/offerblock/coding-background.jpg);
+	background: url("../img/offerblock/coding-background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
