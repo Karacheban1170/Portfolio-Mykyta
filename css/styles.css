@@ -286,9 +286,15 @@ body {
 	height: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 812px) {
 	.main-block__image {
 		opacity: 0.4;
+	}
+}
+
+@media (max-width: 425px) {
+	.main-block__image {
+		opacity: 0.2;
 	}
 }
 
@@ -298,11 +304,17 @@ body {
 	}
 }
 
-@media (max-width: 425px) {
-	.main-block__image img {
-		object-position: 93%;
+	@media (max-width: 425px) {
+		.main-block__image img {
+			object-position: 100%;
+		}
 	}
-}
+
+	@media (max-width: 393px) {
+		.main-block__image img {
+			object-position: 94%;
+		}
+	}
 
 .about-block__personal-details {
 	display: flex;
